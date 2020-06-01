@@ -21,10 +21,9 @@ void setPin(port_t port, pin_t pin, statePin_t state){
 
 statePin_t getPin(port_t port, pin_t pin, statePin_t activity){
     statePin_t currentState = (statePin_t)((GPIOs[port].FIOPIN >> pin) & HIGH_GPIO);
-    printf("%d\n", currentState);
     return (activity? currentState : !currentState );
 }
 
 void togglePin(port_t port, pin_t pin){
-
+    setPin(port, pin, !getPin(port,pin, HIGH_GPIO));
 }
