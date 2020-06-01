@@ -25,5 +25,5 @@ statePin_t getPin(port_t port, pin_t pin, statePin_t activity){
 }
 
 void togglePin(port_t port, pin_t pin){
-
+    setPin(port, pin, !getPin(port,pin, HIGH_GPIO));
 }
