@@ -41,4 +41,9 @@ typedef enum{
     True
 } bool_t;
 
+typedef enum{
+	EXIT_SUCCESS,
+	EXIT_FAILURE
+} exit_t;
+
 #endif  // COMMONS_H

@@ -1,20 +1,8 @@
-#ifndef SYSTICK_H_
-#define SYSTICK_H_
+#ifndef SYSTICK_H
+#define SYSTICK_H
 
 #include "commons.h"
 #include "gpio.h"
-
-#define SYSTICK ((systick_t *) 0xe000e010)
-
- #define STCTRL			SYSTICK->_STCTRL
-  	#define ENABLE			SYSTICK->bits._ENABLE
- 	#define TICKINT			SYSTICK->bits._TICKINT
- 	#define CLKSOURCE		SYSTICK->bits._CLKSOURCE
- 	#define COUNTFLAG		SYSTICK->bits._COUNTFLAG
- #define STRELOAD		SYSTICK->_STRELOAD
- #define STCURR			SYSTICK->_STCURR
- #define STCALIB		SYSTICK->_STCALIB
-
 typedef struct{
 	union{
 	__RW uint32_t	_STCTRL;
@@ -32,6 +20,18 @@ typedef struct{
 	__RW uint32_t	_STCALIB;
 }systick_t;
 
+#define SYSTICK ((systick_t *) 0xe000e010)
+
+ #define STCTRL			SYSTICK->_STCTRL
+  	#define ENABLE			SYSTICK->bits._ENABLE
+ 	#define TICKINT			SYSTICK->bits._TICKINT
+ 	#define CLKSOURCE		SYSTICK->bits._CLKSOURCE
+ 	#define COUNTFLAG		SYSTICK->bits._COUNTFLAG
+ #define STRELOAD		SYSTICK->_STRELOAD
+ #define STCURR			SYSTICK->_STCURR
+ #define STCALIB		SYSTICK->_STCALIB
+
+
 void SysTickIni(void);
 void SysTick_Handler(void);
-#endif /* SYSTICK_H_ */
+#endif // SYSTICK_H
