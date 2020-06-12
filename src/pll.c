@@ -1,13 +1,5 @@
-
-/***********************************************************************************************************************************
- *** INCLUDES
- **********************************************************************************************************************************/
 #include "pll.h"
 
-/***********************************************************************************************************************************
- *** FUNCIONES GLOBALES AL MODULO
- **********************************************************************************************************************************/
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /**
 	\fn  InitPLL ( void )
 	\brief Inicializacion del XTAL.
@@ -18,11 +10,12 @@
 */
 void InitPLL ( void )
 {
+
 	//Este bloque de codigo habilita el oscilador externo como fuente de clk
 	//del micro, y configura un dispositivo conocido como PLL (Phase Locked Loop)
 	//para generar un clock interno de 100MHz a partir del oscilador conectado
 
-	SCS = SCS_Value;
+	SCS       = SCS_Value;
 
 	if (SCS_Value & (1 << 5))               /* If Main Oscillator is enabled      */
 		while ((SCS & (1<<6)) == 0);/* Wait for Oscillator to be ready    */

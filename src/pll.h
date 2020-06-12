@@ -1,35 +1,23 @@
-/*******************************************************************************************************************************//**
- *
- * @file		InitProyecto.c
- * @author		Anze - Zolezzi
- *
- **********************************************************************************************************************************/
+#ifndef KITINIC_H_
+#define KITINIC_H_
 
-/***********************************************************************************************************************************
- *** MODULO
- **********************************************************************************************************************************/
-#ifndef PLL_H
-#define PLL_H
-/***********************************************************************************************************************************
- *** INCLUDES GLOBALES
- **********************************************************************************************************************************/
 #include "commons.h"
 /***********************************************************************************************************************************
  *** DEFINES GLOBALES
  **********************************************************************************************************************************/
-//!< ///////////////////   PCONP   //////////////////////////
-//!<  Power Control for Peripherals register (PCONP - 0x400F C0C4) [pag. 62 user manual LPC1769]
-//!< 0x400FC0C4UL : Direccion de inicio del registro de habilitación de dispositivos:
-#define 	PCONP	(* ( ( __RW uint32_t  * ) 0x400FC0C4UL ))
-    #define 	PCONP_ADC	12
-    #define		PCONP_RTC	9
-//!< ///////////////////   PCLKSEL   //////////////////////////
-//!< Peripheral Clock Selection registers 0 and 1 (PCLKSEL0 -0x400F C1A8 and PCLKSEL1 - 0x400F C1AC) [pag. 56 user manual]
-//!< 0x400FC1A8UL : Direccion de inicio de los registros de seleccion de los CLKs de los dispositivos:
-#define		PCLKSEL		( ( __RW uint32_t  * ) 0x400FC1A8UL )
-//!< Registros PCLKSEL
-#define		PCLKSEL0	PCLKSEL[0]
-#define		PCLKSEL1	PCLKSEL[1]
+	//!< ///////////////////   PCONP   //////////////////////////
+	//!<  Power Control for Peripherals register (PCONP - 0x400F C0C4) [pag. 62 user manual LPC1769]
+	//!< 0x400FC0C4UL : Direccion de inicio del registro de habilitación de dispositivos:
+	#define 	PCONP	(* ( ( __RW uint32_t  * ) 0x400FC0C4UL ))
+		#define 	PCONP_ADC	12
+		#define		PCONP_RTC	9
+	//!< ///////////////////   PCLKSEL   //////////////////////////
+	//!< Peripheral Clock Selection registers 0 and 1 (PCLKSEL0 -0x400F C1A8 and PCLKSEL1 - 0x400F C1AC) [pag. 56 user manual]
+	//!< 0x400FC1A8UL : Direccion de inicio de los registros de seleccion de los CLKs de los dispositivos:
+	#define		PCLKSEL		( ( __RW uint32_t  * ) 0x400FC1A8UL )
+	//!< Registros PCLKSEL
+	#define		PCLKSEL0	PCLKSEL[0]
+	#define		PCLKSEL1	PCLKSEL[1]
 
 //////////////Registros del CLOCK y de sistema/////////////////
 //0x400FC1A0UL: Registro de control de sistema y registro de status:
@@ -102,4 +90,4 @@
  **********************************************************************************************************************************/
 void InitPLL	(void);
 
-#endif // PLL_H 
+#endif /* KITINIC_H_ */

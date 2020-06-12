@@ -1,6 +1,8 @@
 #ifndef COMMONS_H
 #define COMMONS_H
 
+#include <stdio.h>
+
 typedef unsigned int uint32_t;
 typedef short unsigned int uint16_t;
 typedef unsigned char uint8_t;
@@ -14,8 +16,6 @@ typedef char int8_t;
 #define 	__RW				volatile           	// !< Modificador lectura / escritura
 #define 	ON					1
 #define 	OFF					0
-
-#define 	NULL				(( void *) 0)
 
 #define SALIDA      1
 #define ENTRADA     0
