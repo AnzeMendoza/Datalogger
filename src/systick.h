@@ -31,6 +31,7 @@ typedef struct{
  #define STCURR			SYSTICK->_STCURR
  #define STCALIB		SYSTICK->_STCALIB
 
+#define SEC 1000
 
 void SysTickIni(void);
 void SysTick_Handler(void);

@@ -8,7 +8,7 @@
 	\return void
 */
 void SysTickIni(void){
-	STRELOAD = (STCALIB/4)-1;
+	STRELOAD = (STCALIB/10)-1;
 	STCURR = 0;
 	ENABLE = 1;
 	TICKINT = 1;
@@ -24,12 +24,11 @@ void SysTickIni(void){
 	\return void
 */
 void SysTick_Handler(void){
-
-    static uint32_t count = 800;
+    static uint32_t count = SEC;
 
     if (!count){
     	togglePin(PORT0, PIN22);
-        count = 800;
+        count = SEC;
     }
     count--;
 }
