@@ -3,6 +3,8 @@
 
 #include "commons.h"
 #include "gpio.h"
+#include "timerMachine.h"
+
 typedef struct{
 	union{
 	__RW uint32_t	_STCTRL;

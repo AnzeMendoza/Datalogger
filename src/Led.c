@@ -4,6 +4,7 @@
 #include "pinsel.h"
 #include "pll.h"
 #include "systick.h"
+#include "timerMachine.h"
 
 void setupLPC(){
 	InitPLL();
@@ -15,6 +16,9 @@ void setupLPC(){
 int main(void) {
 	setupLPC();
 
-	while (True);
+	while (True){
+
+		timerAnalyzer();
+	};
 	return 0 ;
 }
