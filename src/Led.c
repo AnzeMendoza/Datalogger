@@ -2,8 +2,12 @@
 #include "commons.h"
 #include "gpio.h"
 #include "pinsel.h"
+#include "pll.h"
+#include "systick.h"
 
 void setupLPC(){
+	InitPLL();
+	SysTickIni();
 	setPinsel(PORT0, PIN22, GPIO);
 	setDir(PORT0, PIN22, OUT_GPIO);
 }
@@ -11,12 +15,6 @@ void setupLPC(){
 int main(void) {
 	setupLPC();
 
-	while (True){
-		setPin(PORT0, PIN22, LOW_GPIO);
-//		printf("%d\n", getPin(PORT0, PIN22,HIGH_GPIO) );
-		setPin(PORT0, PIN22, HIGH_GPIO);
-//		printf("%d\n", getPin(PORT0, PIN22,HIGH_GPIO) );
-	}
-
+	while (True);
 	return 0 ;
 }
