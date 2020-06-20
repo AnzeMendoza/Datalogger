@@ -14,9 +14,9 @@ void setDir(port_t port, pin_t pin, directionSelect_t direction){
 
 void setPin(port_t port, pin_t pin, statePin_t state){
     if(state)
-        GPIOs[port].FIOSET |= (HIGH_GPIO<<pin);
+        GPIOs[port].FIOSET = (HIGH_GPIO<<pin);
     else
-    	GPIOs[port].FIOCLR |= (HIGH_GPIO<<pin);
+    	GPIOs[port].FIOCLR = (HIGH_GPIO<<pin);
 }
 
 statePin_t getPin(port_t port, pin_t pin, statePin_t activity){

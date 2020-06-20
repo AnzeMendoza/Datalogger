@@ -13,9 +13,9 @@ int main(void) {
 
 	while (True){
 		setPin(PORT0, PIN22, LOW_GPIO);
-		printf("%d\n", getPin(PORT0, PIN22,HIGH_GPIO) );
+//		printf("%d\n", getPin(PORT0, PIN22,HIGH_GPIO) );
 		setPin(PORT0, PIN22, HIGH_GPIO);
-		printf("%d\n", getPin(PORT0, PIN22,HIGH_GPIO) );
+//		printf("%d\n", getPin(PORT0, PIN22,HIGH_GPIO) );
 	}
 
 	return 0 ;
