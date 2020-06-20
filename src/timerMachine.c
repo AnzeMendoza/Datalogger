@@ -1,5 +1,7 @@
 #include "timerMachine.h"
 
+timerMachine_t timer[NUMBER_TIMERS];
+
 void timerStart(uint32_t numberTimer, uint32_t t, void (*callback)(void)){
     if(numberTimer >= NUMBER_TIMERS)
         return;

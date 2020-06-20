@@ -12,8 +12,6 @@ typedef struct
     void (*callback)(void);
 } timerMachine_t;
 
-timerMachine_t timer[NUMBER_TIMERS];
-
 void timerStart(uint32_t numberTimer, uint32_t t, void (*callback)(void));
 void timerStop(uint32_t numberTimer);
 void timerDiscounter(void);
