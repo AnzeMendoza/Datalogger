@@ -5,16 +5,22 @@
 
 #define NUMBER_TIMERS 2
 
-typedef struct 
-{
-    uint32_t Tiempo;
-    uint32_t Alarma;
+typedef uint32_t time_t;
+typedef uint8_t numberTimer_t;
+typedef enum {
+    OFF_ALARM,
+    ON_ALARM
+} stateAlarm_t;
+
+typedef struct {
+    time_t time;
+    stateAlarm_t alarm;
     void (*callback)(void);
 } timerMachine_t;
 
-void timerStart(uint32_t numberTimer, uint32_t t, void (*callback)(void));
-void timerStop(uint32_t numberTimer);
+void timerStart(numberTimer_t numberTimer, time_t timeInSecond, void (*callback)(void));
+void timerStop(numberTimer_t numberTimer);
 void timerDiscounter(void);
-void timerAnalyzer();
+void timerAnalyzer(void);
 
 #endif //TIMER_H
