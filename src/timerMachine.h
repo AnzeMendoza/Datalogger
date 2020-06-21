@@ -3,7 +3,7 @@
 
 #include "commons.h"
 
-#define NUMBER_TIMERS 1
+#define NUMBER_TIMERS 2
 
 typedef struct 
 {

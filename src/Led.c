@@ -12,13 +12,21 @@ void setupLPC(){
 	setPinsel(PORT0, PIN22, GPIO);
 	setDir(PORT0, PIN22, OUT_GPIO);
 }
+void f();
 
 int main(void) {
 	setupLPC();
-
+	timerStart(0, 5, f);
+	
+	timerStart(1, 10, f);
 	while (True){
-
 		timerAnalyzer();
 	};
 	return 0 ;
+}
+
+void f(){
+	togglePin(PORT0, PIN22);
+	printf("pase por f\n");
+	timerStop(1);
 }
