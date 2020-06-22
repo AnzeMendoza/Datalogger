@@ -1,5 +1,5 @@
-#ifndef TIMER_H
-#define TIMER_H
+#ifndef TIMER_MACHINE_H
+#define TIMER_MACHINE_H
 
 #include "commons.h"
 
@@ -23,4 +23,4 @@ void timerStop(numberTimer_t numberTimer);
 void timerDiscounter(void);
 void timerAnalyzer(void);
 
-#endif //TIMER_H
+#endif //TIMER_MACHINE_H
