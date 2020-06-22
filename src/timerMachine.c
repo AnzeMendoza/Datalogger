@@ -2,41 +2,41 @@
 
 timerMachine_t timer[NUMBER_TIMERS];
 
-void timerStart(uint32_t numberTimer, uint32_t t, void (*callback)(void)){
+void timerStart(numberTimer_t numberTimer, time_t timeInSecond, void (*callback)(void)){
     if(numberTimer >= NUMBER_TIMERS)
         return;
 
-    timer[numberTimer].Tiempo = t;
-    timer[numberTimer].Alarma = 0;
+    timer[numberTimer].time = timeInSecond;
+    timer[numberTimer].alarm = OFF_ALARM;
     timer[numberTimer].callback = callback;
 }
 
-void timerStop(uint32_t numberTimer){
+void timerStop(numberTimer_t numberTimer){
     if(numberTimer >= NUMBER_TIMERS)
         return;
-    timer[numberTimer].Tiempo = 0;
-    timer[numberTimer].Alarma = 0;
+    timer[numberTimer].time = 0;
+    timer[numberTimer].alarm = OFF_ALARM;
     timer[numberTimer].callback = 0;
 }
 
-void timerDiscounter(void){ // se va a llamar desde la base de tiempo
-    for (uint8_t i = 0; i < NUMBER_TIMERS; i++)
+void timerDiscounter(void){ // se va a llamar desde la base de time
+    for (numberTimer_t i = 0; i < NUMBER_TIMERS; i++)
     {
-        if (timer[i].Tiempo > 0)
+        if (timer[i].time > 0)
         {
-            timer[i].Tiempo--;
-            if(timer[i].Tiempo == 0)
-                timer[i].Alarma = 1;
+            timer[i].time--;
+            if(timer[i].time == 0)
+                timer[i].alarm = ON_ALARM;
         }        
      }
 }
 
-void timerAnalyzer(){
-    for (uint8_t i = 0; i < NUMBER_TIMERS; i++)
+void timerAnalyzer(void){
+    for (numberTimer_t i = 0; i < NUMBER_TIMERS; i++)
     {
-        if (timer[i].Alarma == 1)
+        if (timer[i].alarm == ON_ALARM)
         {
-            timer[i].Alarma = 0;
+            timer[i].alarm = OFF_ALARM;
             timer[i].callback();
         }
     }

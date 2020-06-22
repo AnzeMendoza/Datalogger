@@ -27,10 +27,10 @@ void SysTick_Handler(void){
     static uint32_t count = SEC;
 
     if (!count){
-    	togglePin(PORT0, PIN22);
-        count = SEC;
+    	printf("entro al systick\n");
+		timerDiscounter();
+		count = SEC;
     }
     count--;
-	timerDiscounter();
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
