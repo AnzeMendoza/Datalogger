@@ -1,4 +1,6 @@
 #include "systick.h"
+#include "debounce.h"
+
 /**
 	\fn  SysTickIni(void)
 	\brief Inicialiazcion de Systick del LPC.
@@ -32,5 +34,6 @@ void SysTick_Handler(void){
 		count = SEC;
     }
     count--;
+	debounce();
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
