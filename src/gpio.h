@@ -74,9 +74,9 @@ typedef enum {
 #define		FIO4PIN		GPIO4.FIOPIN
 
 
-void setPinMode(port_t port, pin_t pin, pinMode_t mode);
-void setDir(port_t port, pin_t pin, directionSelect_t direction);
-void setPin(port_t port, pin_t pin, statePin_t state);
-statePin_t getPin(port_t port, pin_t pin, statePin_t activity);
-void togglePin(port_t port, pin_t pin);
+void gpioSetPinMode(port_t port, pin_t pin, pinMode_t mode);
+void gpioSetDir(port_t port, pin_t pin, directionSelect_t direction);
+void gpioSetPin(port_t port, pin_t pin, statePin_t state);
+statePin_t gpioGetPin(port_t port, pin_t pin, statePin_t activity);
+void gpioTogglePin(port_t port, pin_t pin);
 #endif //GPIO_H

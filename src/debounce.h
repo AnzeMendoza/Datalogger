@@ -4,7 +4,7 @@
 #include "gpio.h"
 #include "commons.h"
 
-#define CANT_ENTRADAS_DIGITALES 4
+#define CANT_ENTRADAS_DIGITALES 1
 #define ESTADOS_VALIDOS 5
 
 typedef uint8_t stateDebounce_t;

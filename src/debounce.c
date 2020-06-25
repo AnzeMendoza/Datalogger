@@ -6,7 +6,7 @@ void debounce(void)
 {
     for (uint8_t i = 0; i < CANT_ENTRADAS_DIGITALES; i++)
     {    
-        input[i].actualState = getPin(input[i].port, input[i].pin, HIGH_GPIO);
+        input[i].actualState = gpioGetPin(input[i].port, input[i].pin, HIGH_GPIO);
         
         if (input[i].actualState == input[i].previousState)
         {

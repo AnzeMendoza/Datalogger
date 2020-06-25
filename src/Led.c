@@ -10,7 +10,7 @@ void setupLPC(){
 	InitPLL();
 	SysTickIni();
 	setPinsel(PORT0, PIN22, GPIO);
-	setDir(PORT0, PIN22, OUT_GPIO);
+	gpioSetDir(PORT0, PIN22, OUT_GPIO);
 }
 void f();
 
@@ -26,7 +26,7 @@ int main(void) {
 }
 
 void f(){
-	togglePin(PORT0, PIN22);
+	gpioTogglePin(PORT0, PIN22);
 	printf("pase por f\n");
 	timerStop(1);
 }
