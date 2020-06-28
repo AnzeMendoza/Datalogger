@@ -11,16 +11,20 @@ void setupLPC(){
 	SysTickIni();
 	setPinsel(PORT0, PIN22, GPIO);
 	gpioSetDir(PORT0, PIN22, OUT_GPIO);
+	setPinsel(PORT2, PIN10, GPIO);
+	gpioSetDir(PORT2, PIN10, IN_GPIO);
 }
 void f();
 
 int main(void) {
 	setupLPC();
-	timerStart(0, 5, f);
+	//timerStart(0, 5, f);
 	
-	timerStart(1, 10, f);
+	//timerStart(1, 10, f);
 	while (True){
-		timerAnalyzer();
+		//timerAnalyzer();
+		if(gpioGetPin(PORT2, PIN10, LOW_GPIO))
+			printf("Entra al if\n");
 	};
 	return 0 ;
 }
