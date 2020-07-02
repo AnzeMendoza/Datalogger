@@ -1,5 +1,6 @@
 #include "systick.h"
 #include "debounce.h"
+#include "keyboardInfotronic.h"
 
 /**
 	\fn  SysTickIni(void)
@@ -29,11 +30,11 @@ void SysTick_Handler(void){
     static uint32_t count = SEC;
 
     if (!count){
-    	printf("entro al systick\n");
+    	//printf("entro al systick\n");
 		timerDiscounter();
 		count = SEC;
     }
     count--;
-	debounce();
+	teclado_antirebote();
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

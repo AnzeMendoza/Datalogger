@@ -5,6 +5,7 @@
 #include "pll.h"
 #include "systick.h"
 #include "timerMachine.h"
+#include "keyboardInfotronic.h"
 
 void setupLPC(){
 	InitPLL();
@@ -13,18 +14,18 @@ void setupLPC(){
 	gpioSetDir(PORT0, PIN22, OUT_GPIO);
 	setPinsel(PORT2, PIN10, GPIO);
 	gpioSetDir(PORT2, PIN10, IN_GPIO);
+	teclado_inicializar();
 }
 void f();
 
 int main(void) {
+	codeKey_t temp = NO_KEY;
 	setupLPC();
-	//timerStart(0, 5, f);
-	
-	//timerStart(1, 10, f);
+
+
 	while (True){
-		//timerAnalyzer();
-		if(gpioGetPin(PORT2, PIN10, LOW_GPIO))
-			printf("Entra al if\n");
+		if ( (temp = teclado_leer()) )
+			printf("valor de tecla: %d\n", temp);
 	};
 	return 0 ;
 }
