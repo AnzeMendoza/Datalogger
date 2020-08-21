@@ -6,6 +6,7 @@
 #include "systick.h"
 #include "timerMachine.h"
 #include "keyboardInfotronic.h"
+#include "uart.h"
 
 void setupLPC(){
 	InitPLL();
@@ -15,6 +16,7 @@ void setupLPC(){
 	setPinsel(PORT2, PIN10, GPIO);
 	gpioSetDir(PORT2, PIN10, IN_GPIO);
 	teclado_inicializar();
+	initUART0(9600);
 }
 void f();
 
