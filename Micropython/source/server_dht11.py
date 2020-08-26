@@ -19,7 +19,6 @@ def do_connect_AC():
 	data_wlan = wlan.ifconfig()
 	return (data_wlan[0])
 
-
 def configDHT11():
 	d = DHT11(Pin(14))
 	return d

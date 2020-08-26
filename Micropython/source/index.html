@@ -1,25 +1,31 @@
 <!DOCTYPE html>
-	<html>
-	    <head> <title>Informatica II</title> </head>
-	    <body>
-	    	<h1>Humedad y temperatura [DHT11]</h1>
-	    	
-	    		<table border="1" bgcolor="#909090"> 
-	            	<div>
-	            		<tr>
-	               			<th>Pin</th><th>Value</th>
-	            		</tr> %s
-	            	</div>
-	            	
+<html lang="en">
 
-	            	
-	        	</table>
-	       		       
-	    </body>
-	    
-	</html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Informatica II</title>
+</head>
 
-	<script type="text/javascript">
-		function actualizar(){location.reload(true);}
-  		setInterval("actualizar()",1000);
-	</script>
+<body>
+	<h1>Humedad y temperatura [DHT11]</h1>
+
+	<table border="1" bgcolor="#909090">
+		<tr>
+			<th>Temperatura</th>
+			<th>Humedad</th>
+			<th>contador</th>
+		</tr>
+		<tr>
+			%s
+		</tr>
+	</table>
+
+</body>
+
+<script>
+	function actualizar() { location.reload(true); }
+	setInterval("actualizar()", 1000);
+</script>
+
+</html>
