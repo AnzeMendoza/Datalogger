@@ -1,0 +1,7 @@
+uart.c:11:6:initUART0	24	static
+uart.c:44:6:UART0_IRQHandler	16	static
+uart.c:64:6:UART0_RX	8	static
+uart.c:70:6:UART0_TX_byte	16	static
+uart.c:84:9:popTx	16	static
+uart.c:98:6:UART0_TX	16	static
+uart.c:108:6:UART0_TX_Datos	24	static

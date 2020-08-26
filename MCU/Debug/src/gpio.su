@@ -1,0 +1,5 @@
+gpio.c:3:6:gpioSetPinMode	16	static
+gpio.c:8:6:gpioSetDir	16	static
+gpio.c:15:6:gpioSetPin	16	static
+gpio.c:22:12:gpioGetPin	24	static
+gpio.c:27:6:gpioTogglePin	16	static

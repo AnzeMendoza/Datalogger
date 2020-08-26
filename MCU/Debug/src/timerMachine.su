@@ -1,0 +1,4 @@
+timerMachine.c:5:6:timerStart	24	static
+timerMachine.c:14:6:timerStop	16	static
+timerMachine.c:22:6:timerDiscounter	16	static
+timerMachine.c:34:6:timerAnalyzer	16	static

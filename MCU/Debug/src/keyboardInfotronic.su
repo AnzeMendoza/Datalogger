@@ -1,0 +1,6 @@
+keyboardInfotronic.c:9:11:teclado_leer_HD	8	static
+keyboardInfotronic.c:25:6:teclado_inicializar	8	static
+keyboardInfotronic.c:44:6:teclado_antirebote	8	static
+keyboardInfotronic.c:78:11:teclado_leer	8	static
+keyboardInfotronic.c:87:6:teclado_push	16	static
+keyboardInfotronic.c:103:11:teclado_pop	16	static

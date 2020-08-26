@@ -1,0 +1,2 @@
+debounce.c:5:6:debounce	24	static
+debounce.c:30:17:readFilteredEntry	16	static
