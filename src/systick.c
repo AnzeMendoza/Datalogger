@@ -26,15 +26,20 @@ void SysTickIni(void){
  	\param [out] void
 	\return void
 */
+
+bool_t flag1segundo = False;
+
 void SysTick_Handler(void){
+	
     static uint32_t count = SEC;
 
     if (!count){
     	//printf("entro al systick\n");
-		timerDiscounter();
+		// timerDiscounter();
 		count = SEC;
+		flag1segundo = True;
     }
     count--;
-	teclado_antirebote();
+	// teclado_antirebote();
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -4,6 +4,7 @@
 #include "pll.h"
 #include "pinsel.h"
 #include "nvic.h"
+#include <string.h>
 
 //0x4000C000 : Registro de recepcion de la UART0:
 #define UART0	((__RW uint32_t *) 0x4000C000)
@@ -39,7 +40,15 @@
 #define		TX1			0,15
 #define		RX1			0,16
 
+//driver
 void initUART0();
 void UART0_IRQHandler();
 void UART0_RX();
+void UART0_TX();
+
+//primitivas
+void UART0_TX_byte(uint8_t data);
+int16_t popTx();
+void UART0_TX_Datos(uint8_t *datos, uint32_t size);
+
 #endif //UART_H

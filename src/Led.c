@@ -11,29 +11,23 @@
 void setupLPC(){
 	InitPLL();
 	SysTickIni();
-	setPinsel(PORT0, PIN22, GPIO);
-	gpioSetDir(PORT0, PIN22, OUT_GPIO);
-	setPinsel(PORT2, PIN10, GPIO);
-	gpioSetDir(PORT2, PIN10, IN_GPIO);
-	teclado_inicializar();
-	initUART0(9600);
+//	setPinsel(PORT0, PIN22, GPIO);
+//	gpioSetDir(PORT0, PIN22, OUT_GPIO);
+//	setPinsel(PORT2, PIN10, GPIO);
+//	gpioSetDir(PORT2, PIN10, IN_GPIO);
+//	teclado_inicializar();
+	initUART0(115200);
 }
-void f();
 
 int main(void) {
-	codeKey_t temp = NO_KEY;
 	setupLPC();
-
+	extern bool_t flag1segundo;
 
 	while (True){
-		if ( (temp = teclado_leer()) )
-			printf("valor de tecla: %d\n", temp);
+		if(flag1segundo){
+			UART0_TX_Datos((uint8_t*)"Hola desde info2\n",0);
+			flag1segundo = False;
+		}
 	};
-	return 0 ;
-}
-
-void f(){
-	gpioTogglePin(PORT0, PIN22);
-	printf("pase por f\n");
-	timerStop(1);
+	return EXIT_SUCCESS;
 }
