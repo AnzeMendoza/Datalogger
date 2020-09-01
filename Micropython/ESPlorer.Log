@@ -1,0 +1,4792 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-08-26T05:35:32.011601Z</date>
+  <millis>1598420132011</millis>
+  <nanos>601000</nanos>
+  <sequence>5</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Load saved settings: Firmware:NodeMCU</message>
+</record>
+<record>
+  <date>2020-08-26T05:35:32.479604Z</date>
+  <millis>1598420132479</millis>
+  <nanos>604000</nanos>
+  <sequence>6</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2020-08-26T05:35:32.792705Z</date>
+  <millis>1598420132792</millis>
+  <nanos>705000</nanos>
+  <sequence>7</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:35:32.957287Z</date>
+  <millis>1598420132957</millis>
+  <nanos>287000</nanos>
+  <sequence>8</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Set new color theme: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:35:32.979899Z</date>
+  <millis>1598420132979</millis>
+  <nanos>899000</nanos>
+  <sequence>9</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Load saved settings: DONE.</message>
+</record>
+<record>
+  <date>2020-08-26T05:35:32.987405Z</date>
+  <millis>1598420132987</millis>
+  <nanos>405000</nanos>
+  <sequence>10</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2020-08-26T05:35:33.004696Z</date>
+  <millis>1598420133004</millis>
+  <nanos>696000</nanos>
+  <sequence>11</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:35:35.200969Z</date>
+  <millis>1598420135200</millis>
+  <nanos>969000</nanos>
+  <sequence>12</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2020-08-26T05:35:35.277738Z</date>
+  <millis>1598420135277</millis>
+  <nanos>738000</nanos>
+  <sequence>13</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>found last saved serial port /dev/ttyUSB0</message>
+</record>
+<record>
+  <date>2020-08-26T05:35:35.285759Z</date>
+  <millis>1598420135285</millis>
+  <nanos>759000</nanos>
+  <sequence>14</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2020-08-26T05:35:44.061896Z</date>
+  <millis>1598420144061</millis>
+  <nanos>896000</nanos>
+  <sequence>15</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Serial port /dev/ttyUSB0 save as default.</message>
+</record>
+<record>
+  <date>2020-08-26T05:35:44.063949Z</date>
+  <millis>1598420144063</millis>
+  <nanos>949000</nanos>
+  <sequence>16</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2020-08-26T05:35:44.066366Z</date>
+  <millis>1598420144066</millis>
+  <nanos>366000</nanos>
+  <sequence>17</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Try to open port /dev/ttyUSB0, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2020-08-26T05:35:44.075768Z</date>
+  <millis>1598420144075</millis>
+  <nanos>768000</nanos>
+  <sequence>18</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Open port /dev/ttyUSB0 - Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:35:46.544615Z</date>
+  <millis>1598420146544</millis>
+  <nanos>615000</nanos>
+  <sequence>19</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>RTS set to ON</message>
+</record>
+<record>
+  <date>2020-08-26T05:35:47.192003Z</date>
+  <millis>1598420147192</millis>
+  <nanos>3000</nanos>
+  <sequence>20</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>RTS set to OFF</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:31.321984Z</date>
+  <millis>1598420191321</millis>
+  <nanos>984000</nanos>
+  <sequence>21</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:31.324431Z</date>
+  <millis>1598420191324</millis>
+  <nanos>431000</nanos>
+  <sequence>22</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:31.485147Z</date>
+  <millis>1598420191485</millis>
+  <nanos>147000</nanos>
+  <sequence>23</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:31.488783Z</date>
+  <millis>1598420191488</millis>
+  <nanos>783000</nanos>
+  <sequence>24</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:31.905934Z</date>
+  <millis>1598420191905</millis>
+  <nanos>934000</nanos>
+  <sequence>25</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:32.033724Z</date>
+  <millis>1598420192033</millis>
+  <nanos>724000</nanos>
+  <sequence>26</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:32.050377Z</date>
+  <millis>1598420192050</millis>
+  <nanos>377000</nanos>
+  <sequence>27</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:32.054996Z</date>
+  <millis>1598420192054</millis>
+  <nanos>996000</nanos>
+  <sequence>28</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:32.072984Z</date>
+  <millis>1598420192072</millis>
+  <nanos>984000</nanos>
+  <sequence>29</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:32.079775Z</date>
+  <millis>1598420192079</millis>
+  <nanos>775000</nanos>
+  <sequence>30</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:32.093114Z</date>
+  <millis>1598420192093</millis>
+  <nanos>114000</nanos>
+  <sequence>31</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:32.097774Z</date>
+  <millis>1598420192097</millis>
+  <nanos>774000</nanos>
+  <sequence>32</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:35.736974Z</date>
+  <millis>1598420195736</millis>
+  <nanos>974000</nanos>
+  <sequence>33</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:35.738972Z</date>
+  <millis>1598420195738</millis>
+  <nanos>972000</nanos>
+  <sequence>34</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:36.170332Z</date>
+  <millis>1598420196170</millis>
+  <nanos>332000</nanos>
+  <sequence>35</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:36.172745Z</date>
+  <millis>1598420196172</millis>
+  <nanos>745000</nanos>
+  <sequence>36</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:36.203543Z</date>
+  <millis>1598420196203</millis>
+  <nanos>543000</nanos>
+  <sequence>37</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:36.207203Z</date>
+  <millis>1598420196207</millis>
+  <nanos>203000</nanos>
+  <sequence>38</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:36.892355Z</date>
+  <millis>1598420196892</millis>
+  <nanos>355000</nanos>
+  <sequence>39</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:36.895846Z</date>
+  <millis>1598420196895</millis>
+  <nanos>846000</nanos>
+  <sequence>40</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:36.938531Z</date>
+  <millis>1598420196938</millis>
+  <nanos>531000</nanos>
+  <sequence>41</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:36.948588Z</date>
+  <millis>1598420196948</millis>
+  <nanos>588000</nanos>
+  <sequence>42</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:40.869599Z</date>
+  <millis>1598420200869</millis>
+  <nanos>599000</nanos>
+  <sequence>43</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:40.874529Z</date>
+  <millis>1598420200874</millis>
+  <nanos>529000</nanos>
+  <sequence>44</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:40.913501Z</date>
+  <millis>1598420200913</millis>
+  <nanos>501000</nanos>
+  <sequence>45</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:40.915837Z</date>
+  <millis>1598420200915</millis>
+  <nanos>837000</nanos>
+  <sequence>46</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:36:45.811667Z</date>
+  <millis>1598420205811</millis>
+  <nanos>667000</nanos>
+  <sequence>47</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:import sys; print(sys.version_info)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T05:37:56.963962Z</date>
+  <millis>1598420276963</millis>
+  <nanos>962000</nanos>
+  <sequence>48</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Try to open file server_dht11.py</message>
+</record>
+<record>
+  <date>2020-08-26T05:37:56.965235Z</date>
+  <millis>1598420276965</millis>
+  <nanos>235000</nanos>
+  <sequence>49</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>File name: /home/sucho/Documentos/Git/Datalogger/Micropython/source/server_dht11.py</message>
+</record>
+<record>
+  <date>2020-08-26T05:37:56.972403Z</date>
+  <millis>1598420276972</millis>
+  <nanos>403000</nanos>
+  <sequence>50</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Try to load file server_dht11.py</message>
+</record>
+<record>
+  <date>2020-08-26T05:37:57.228504Z</date>
+  <millis>1598420277228</millis>
+  <nanos>504000</nanos>
+  <sequence>51</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Loading server_dht11.py: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:37:57.239186Z</date>
+  <millis>1598420277239</millis>
+  <nanos>186000</nanos>
+  <sequence>52</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Open "server_dht11.py": Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:24.841747Z</date>
+  <millis>1598420304841</millis>
+  <nanos>747000</nanos>
+  <sequence>53</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>DataSender: start "Dumb Mode"</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:24.843432Z</date>
+  <millis>1598420304843</millis>
+  <nanos>432000</nanos>
+  <sequence>54</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>SendToESP: Starting...</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:24.880624Z</date>
+  <millis>1598420304880</millis>
+  <nanos>624000</nanos>
+  <sequence>55</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:import network</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:24.942564Z</date>
+  <millis>1598420304942</millis>
+  <nanos>564000</nanos>
+  <sequence>56</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:import socket</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:24.949639Z</date>
+  <millis>1598420304949</millis>
+  <nanos>639000</nanos>
+  <sequence>57</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:import time </message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.027407Z</date>
+  <millis>1598420305027</millis>
+  <nanos>407000</nanos>
+  <sequence>58</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:from dht import DHT11</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.051866Z</date>
+  <millis>1598420305051</millis>
+  <nanos>866000</nanos>
+  <sequence>59</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:from machine import Pin</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.079954Z</date>
+  <millis>1598420305079</millis>
+  <nanos>954000</nanos>
+  <sequence>60</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.126813Z</date>
+  <millis>1598420305126</millis>
+  <nanos>813000</nanos>
+  <sequence>61</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:def do_connect():</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.140892Z</date>
+  <millis>1598420305140</millis>
+  <nanos>892000</nanos>
+  <sequence>62</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	wlan = network.WLAN(network.STA_IF)</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.188482Z</date>
+  <millis>1598420305188</millis>
+  <nanos>482000</nanos>
+  <sequence>63</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	wlan.active(True)</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.216434Z</date>
+  <millis>1598420305216</millis>
+  <nanos>434000</nanos>
+  <sequence>64</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	wlan.connect('Anze', 'franquito')</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.253449Z</date>
+  <millis>1598420305253</millis>
+  <nanos>449000</nanos>
+  <sequence>65</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	time.sleep(3)</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.273065Z</date>
+  <millis>1598420305273</millis>
+  <nanos>65000</nanos>
+  <sequence>66</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	data_wlan = wlan.ifconfig()</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.302220Z</date>
+  <millis>1598420305302</millis>
+  <nanos>220000</nanos>
+  <sequence>67</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	return (data_wlan[0])</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.328086Z</date>
+  <millis>1598420305328</millis>
+  <nanos>86000</nanos>
+  <sequence>68</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.360584Z</date>
+  <millis>1598420305360</millis>
+  <nanos>584000</nanos>
+  <sequence>69</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:def do_connect_AC():</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.406907Z</date>
+  <millis>1598420305406</millis>
+  <nanos>907000</nanos>
+  <sequence>70</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	wlan = network.WLAN(network.AP_IF)</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.429573Z</date>
+  <millis>1598420305429</millis>
+  <nanos>573000</nanos>
+  <sequence>71</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	wlan.active(True)</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.451710Z</date>
+  <millis>1598420305451</millis>
+  <nanos>710000</nanos>
+  <sequence>72</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	time.sleep(3)</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.474009Z</date>
+  <millis>1598420305474</millis>
+  <nanos>9000</nanos>
+  <sequence>73</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	data_wlan = wlan.ifconfig()</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.500812Z</date>
+  <millis>1598420305500</millis>
+  <nanos>812000</nanos>
+  <sequence>74</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	return (data_wlan[0])</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.532203Z</date>
+  <millis>1598420305532</millis>
+  <nanos>203000</nanos>
+  <sequence>75</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.564448Z</date>
+  <millis>1598420305564</millis>
+  <nanos>448000</nanos>
+  <sequence>76</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:def configDHT11():</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.626645Z</date>
+  <millis>1598420305626</millis>
+  <nanos>645000</nanos>
+  <sequence>77</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	d = DHT11(Pin(14))</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.706859Z</date>
+  <millis>1598420305706</millis>
+  <nanos>859000</nanos>
+  <sequence>78</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	return d</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.730875Z</date>
+  <millis>1598420305730</millis>
+  <nanos>875000</nanos>
+  <sequence>79</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.753192Z</date>
+  <millis>1598420305753</millis>
+  <nanos>192000</nanos>
+  <sequence>80</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:def http_server(d, ip_server):</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.782330Z</date>
+  <millis>1598420305782</millis>
+  <nanos>330000</nanos>
+  <sequence>81</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	html =  """&lt;!DOCTYPE html&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.809633Z</date>
+  <millis>1598420305809</millis>
+  <nanos>633000</nanos>
+  <sequence>82</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:					&lt;html&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.823916Z</date>
+  <millis>1598420305823</millis>
+  <nanos>916000</nanos>
+  <sequence>83</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:					    &lt;head&gt; &lt;title&gt;H y T&lt;/title&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.879664Z</date>
+  <millis>1598420305879</millis>
+  <nanos>664000</nanos>
+  <sequence>84</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:					    	&lt;script type="text/javascript"&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.912963Z</date>
+  <millis>1598420305912</millis>
+  <nanos>963000</nanos>
+  <sequence>85</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:								setInterval("my_function();",15000); </message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.948985Z</date>
+  <millis>1598420305948</millis>
+  <nanos>985000</nanos>
+  <sequence>86</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:								function my_function(){window.location = location.href;}</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:25.975254Z</date>
+  <millis>1598420305975</millis>
+  <nanos>254000</nanos>
+  <sequence>87</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:							&lt;/script&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.033259Z</date>
+  <millis>1598420306033</millis>
+  <nanos>259000</nanos>
+  <sequence>88</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:					    &lt;/head&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.095704Z</date>
+  <millis>1598420306095</millis>
+  <nanos>704000</nanos>
+  <sequence>89</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.109195Z</date>
+  <millis>1598420306109</millis>
+  <nanos>195000</nanos>
+  <sequence>90</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:					    &lt;body&gt; </message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.141859Z</date>
+  <millis>1598420306141</millis>
+  <nanos>859000</nanos>
+  <sequence>91</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:					      &lt;h1&gt;Humedad y temperatura DHT11&lt;/h1&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.182929Z</date>
+  <millis>1598420306182</millis>
+  <nanos>929000</nanos>
+  <sequence>92</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:						  </message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.220679Z</date>
+  <millis>1598420306220</millis>
+  <nanos>679000</nanos>
+  <sequence>93</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:						    &lt;table border="1" bgcolor="#909090"&gt; </message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.277944Z</date>
+  <millis>1598420306277</millis>
+  <nanos>944000</nanos>
+  <sequence>94</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:					            &lt;tr&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.316751Z</date>
+  <millis>1598420306316</millis>
+  <nanos>751000</nanos>
+  <sequence>95</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:					                &lt;th&gt;Temperatura&lt;/th&gt;&lt;th&gt;Humedad&lt;/th&gt;&lt;th&gt;contador&lt;/th&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.324029Z</date>
+  <millis>1598420306324</millis>
+  <nanos>29000</nanos>
+  <sequence>96</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:					            &lt;/tr&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.352070Z</date>
+  <millis>1598420306352</millis>
+  <nanos>70000</nanos>
+  <sequence>97</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:					            &lt;tr&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.370729Z</date>
+  <millis>1598420306370</millis>
+  <nanos>729000</nanos>
+  <sequence>98</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:					            	%s</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.406616Z</date>
+  <millis>1598420306406</millis>
+  <nanos>616000</nanos>
+  <sequence>99</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:					            &lt;/tr&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.416755Z</date>
+  <millis>1598420306416</millis>
+  <nanos>755000</nanos>
+  <sequence>100</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:					  		&lt;/table&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.448140Z</date>
+  <millis>1598420306448</millis>
+  <nanos>140000</nanos>
+  <sequence>101</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:					    &lt;/body&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.463991Z</date>
+  <millis>1598420306463</millis>
+  <nanos>991000</nanos>
+  <sequence>102</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:					    </message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.531270Z</date>
+  <millis>1598420306531</millis>
+  <nanos>270000</nanos>
+  <sequence>103</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:					&lt;/html&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.536164Z</date>
+  <millis>1598420306536</millis>
+  <nanos>164000</nanos>
+  <sequence>104</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:			"""</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.541968Z</date>
+  <millis>1598420306541</millis>
+  <nanos>968000</nanos>
+  <sequence>105</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.567594Z</date>
+  <millis>1598420306567</millis>
+  <nanos>594000</nanos>
+  <sequence>106</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	addr = socket.getaddrinfo(ip_server, 80)[0][-1]</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.595880Z</date>
+  <millis>1598420306595</millis>
+  <nanos>880000</nanos>
+  <sequence>107</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.643291Z</date>
+  <millis>1598420306643</millis>
+  <nanos>291000</nanos>
+  <sequence>108</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	s = socket.socket()</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.683622Z</date>
+  <millis>1598420306683</millis>
+  <nanos>622000</nanos>
+  <sequence>109</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	s.bind(addr)</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.717952Z</date>
+  <millis>1598420306717</millis>
+  <nanos>952000</nanos>
+  <sequence>110</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	s.listen(3)</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.754057Z</date>
+  <millis>1598420306754</millis>
+  <nanos>57000</nanos>
+  <sequence>111</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	count = 0</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.780780Z</date>
+  <millis>1598420306780</millis>
+  <nanos>780000</nanos>
+  <sequence>112</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	print('listening on', addr)</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.810854Z</date>
+  <millis>1598420306810</millis>
+  <nanos>854000</nanos>
+  <sequence>113</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.832265Z</date>
+  <millis>1598420306832</millis>
+  <nanos>265000</nanos>
+  <sequence>114</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	while True:</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.868128Z</date>
+  <millis>1598420306868</millis>
+  <nanos>128000</nanos>
+  <sequence>115</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	   	cl, addr = s.accept() #cliente addres</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.901399Z</date>
+  <millis>1598420306901</millis>
+  <nanos>399000</nanos>
+  <sequence>116</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	   	print('client connected from', addr)</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.921143Z</date>
+  <millis>1598420306921</millis>
+  <nanos>143000</nanos>
+  <sequence>117</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	   	cl_file = cl.makefile('rwb', 0)</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.952643Z</date>
+  <millis>1598420306952</millis>
+  <nanos>643000</nanos>
+  <sequence>118</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	   	count += 1</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:26.996838Z</date>
+  <millis>1598420306996</millis>
+  <nanos>838000</nanos>
+  <sequence>119</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	   	d.measure()</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:27.024600Z</date>
+  <millis>1598420307024</millis>
+  <nanos>600000</nanos>
+  <sequence>120</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	   	time.sleep(2)</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:27.059017Z</date>
+  <millis>1598420307059</millis>
+  <nanos>17000</nanos>
+  <sequence>121</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:27.077072Z</date>
+  <millis>1598420307077</millis>
+  <nanos>72000</nanos>
+  <sequence>122</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	   	rows = ['&lt;td&gt;%d&lt;/td&gt;&lt;td&gt;%d&lt;/td&gt;&lt;td&gt;%d&lt;/td&gt;' % (d.temperature(),d.humidity(), count)]</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:27.112438Z</date>
+  <millis>1598420307112</millis>
+  <nanos>438000</nanos>
+  <sequence>123</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:		response = html % '\n'.join(rows)</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:27.131793Z</date>
+  <millis>1598420307131</millis>
+  <nanos>793000</nanos>
+  <sequence>124</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:		cl.send(response)</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:27.156367Z</date>
+  <millis>1598420307156</millis>
+  <nanos>367000</nanos>
+  <sequence>125</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:		time.sleep(5)</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:27.167571Z</date>
+  <millis>1598420307167</millis>
+  <nanos>571000</nanos>
+  <sequence>126</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:		cl.close()</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:27.231786Z</date>
+  <millis>1598420307231</millis>
+  <nanos>786000</nanos>
+  <sequence>127</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:27.268065Z</date>
+  <millis>1598420307268</millis>
+  <nanos>65000</nanos>
+  <sequence>128</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:if __name__ == "__main__":</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:27.287807Z</date>
+  <millis>1598420307287</millis>
+  <nanos>807000</nanos>
+  <sequence>129</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	data_sensor = configDHT11()</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:27.323412Z</date>
+  <millis>1598420307323</millis>
+  <nanos>412000</nanos>
+  <sequence>130</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	ip_server = do_connect_AC()</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:27.350545Z</date>
+  <millis>1598420307350</millis>
+  <nanos>545000</nanos>
+  <sequence>131</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:	http_server(data_sensor, ip_server)</message>
+</record>
+<record>
+  <date>2020-08-26T05:38:27.489298Z</date>
+  <millis>1598420307489</millis>
+  <nanos>298000</nanos>
+  <sequence>132</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Operation done. Duration = 2660 ms</message>
+</record>
+<record>
+  <date>2020-08-26T05:42:34.256451Z</date>
+  <millis>1598420554256</millis>
+  <nanos>451000</nanos>
+  <sequence>133</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>RTS set to ON</message>
+</record>
+<record>
+  <date>2020-08-26T05:42:34.790840Z</date>
+  <millis>1598420554790</millis>
+  <nanos>840000</nanos>
+  <sequence>134</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>RTS set to OFF</message>
+</record>
+<record>
+  <date>2020-08-26T05:43:27.265940Z</date>
+  <millis>1598420607265</millis>
+  <nanos>940000</nanos>
+  <sequence>135</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Try to open file index.html</message>
+</record>
+<record>
+  <date>2020-08-26T05:43:27.278084Z</date>
+  <millis>1598420607278</millis>
+  <nanos>84000</nanos>
+  <sequence>136</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>File name: /home/sucho/Documentos/Git/Datalogger/Micropython/source/index.html</message>
+</record>
+<record>
+  <date>2020-08-26T05:43:27.280869Z</date>
+  <millis>1598420607280</millis>
+  <nanos>869000</nanos>
+  <sequence>137</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Try to load file index.html</message>
+</record>
+<record>
+  <date>2020-08-26T05:43:27.439907Z</date>
+  <millis>1598420607439</millis>
+  <nanos>907000</nanos>
+  <sequence>138</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Loading index.html: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:43:27.441565Z</date>
+  <millis>1598420607441</millis>
+  <nanos>565000</nanos>
+  <sequence>139</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Open "index.html": Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:43:38.826054Z</date>
+  <millis>1598420618826</millis>
+  <nanos>54000</nanos>
+  <sequence>140</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>pyFileManager: Add EventListener: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:43:38.831089Z</date>
+  <millis>1598420618831</millis>
+  <nanos>89000</nanos>
+  <sequence>141</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>pyFileManager: Starting...</message>
+</record>
+<record>
+  <date>2020-08-26T05:43:38.833316Z</date>
+  <millis>1598420618833</millis>
+  <nanos>316000</nanos>
+  <sequence>142</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:import os;os.listdir('')</message>
+</record>
+<record>
+  <date>2020-08-26T05:43:38.877126Z</date>
+  <millis>1598420618877</millis>
+  <nanos>126000</nanos>
+  <sequence>143</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>54</thread>
+  <message>FileManager: File list found! Do parsing...</message>
+</record>
+<record>
+  <date>2020-08-26T05:43:38.894555Z</date>
+  <millis>1598420618894</millis>
+  <nanos>555000</nanos>
+  <sequence>144</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>54</thread>
+  <message>FileManager found file boot.py</message>
+</record>
+<record>
+  <date>2020-08-26T05:43:38.910867Z</date>
+  <millis>1598420618910</millis>
+  <nanos>867000</nanos>
+  <sequence>145</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>54</thread>
+  <message>FileManager found file webrepl_cfg.py</message>
+</record>
+<record>
+  <date>2020-08-26T05:43:38.920021Z</date>
+  <millis>1598420618920</millis>
+  <nanos>21000</nanos>
+  <sequence>146</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>54</thread>
+  <message>pyFileManager: File list parsing done, found 2 file(s).</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.365113Z</date>
+  <millis>1598420662365</millis>
+  <nanos>113000</nanos>
+  <sequence>147</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.400686Z</date>
+  <millis>1598420662400</millis>
+  <nanos>686000</nanos>
+  <sequence>148</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>We save known file index.html</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.411865Z</date>
+  <millis>1598420662411</millis>
+  <nanos>865000</nanos>
+  <sequence>149</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Try to saving file index.html ...</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.418185Z</date>
+  <millis>1598420662418</millis>
+  <nanos>185000</nanos>
+  <sequence>150</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Save file index.html: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.564582Z</date>
+  <millis>1598420662564</millis>
+  <nanos>582000</nanos>
+  <sequence>151</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>pyFileSaveESP: Starting...</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.577753Z</date>
+  <millis>1598420662577</millis>
+  <nanos>753000</nanos>
+  <sequence>152</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>DataSender: start "Dumb Mode"</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.631653Z</date>
+  <millis>1598420662631</millis>
+  <nanos>653000</nanos>
+  <sequence>153</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f=open('index.html','w')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.637191Z</date>
+  <millis>1598420662637</millis>
+  <nanos>191000</nanos>
+  <sequence>154</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;!DOCTYPE html&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.643771Z</date>
+  <millis>1598420662643</millis>
+  <nanos>771000</nanos>
+  <sequence>155</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;html lang=\"en\"&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.660956Z</date>
+  <millis>1598420662660</millis>
+  <nanos>956000</nanos>
+  <sequence>156</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.674830Z</date>
+  <millis>1598420662674</millis>
+  <nanos>830000</nanos>
+  <sequence>157</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;head&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.689196Z</date>
+  <millis>1598420662689</millis>
+  <nanos>196000</nanos>
+  <sequence>158</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	&lt;meta charset=\"UTF-8\"&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.698115Z</date>
+  <millis>1598420662698</millis>
+  <nanos>115000</nanos>
+  <sequence>159</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	&lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.707362Z</date>
+  <millis>1598420662707</millis>
+  <nanos>362000</nanos>
+  <sequence>160</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	&lt;title&gt;Informatica II&lt;/title&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.712053Z</date>
+  <millis>1598420662712</millis>
+  <nanos>53000</nanos>
+  <sequence>161</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;/head&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.715298Z</date>
+  <millis>1598420662715</millis>
+  <nanos>298000</nanos>
+  <sequence>162</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.719136Z</date>
+  <millis>1598420662719</millis>
+  <nanos>136000</nanos>
+  <sequence>163</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;body&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.721371Z</date>
+  <millis>1598420662721</millis>
+  <nanos>371000</nanos>
+  <sequence>164</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	&lt;h1&gt;Humedad y temperatura [DHT11]&lt;/h1&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.731842Z</date>
+  <millis>1598420662731</millis>
+  <nanos>842000</nanos>
+  <sequence>165</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.736286Z</date>
+  <millis>1598420662736</millis>
+  <nanos>286000</nanos>
+  <sequence>166</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	&lt;table border=\"1\" bgcolor=\"#909090\"&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.752604Z</date>
+  <millis>1598420662752</millis>
+  <nanos>604000</nanos>
+  <sequence>167</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('		&lt;tr&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.778921Z</date>
+  <millis>1598420662778</millis>
+  <nanos>921000</nanos>
+  <sequence>168</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('			&lt;th&gt;Temperatura&lt;/th&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.818377Z</date>
+  <millis>1598420662818</millis>
+  <nanos>377000</nanos>
+  <sequence>169</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('			&lt;th&gt;Humedad&lt;/th&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.868058Z</date>
+  <millis>1598420662868</millis>
+  <nanos>58000</nanos>
+  <sequence>170</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('			&lt;th&gt;contador&lt;/th&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.887206Z</date>
+  <millis>1598420662887</millis>
+  <nanos>206000</nanos>
+  <sequence>171</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('		&lt;/tr&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.922991Z</date>
+  <millis>1598420662922</millis>
+  <nanos>991000</nanos>
+  <sequence>172</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('		&lt;tr&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.942278Z</date>
+  <millis>1598420662942</millis>
+  <nanos>278000</nanos>
+  <sequence>173</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('			%s')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:22.966859Z</date>
+  <millis>1598420662966</millis>
+  <nanos>859000</nanos>
+  <sequence>174</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('		&lt;/tr&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:23.006916Z</date>
+  <millis>1598420663006</millis>
+  <nanos>916000</nanos>
+  <sequence>175</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	&lt;/table&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:23.042860Z</date>
+  <millis>1598420663042</millis>
+  <nanos>860000</nanos>
+  <sequence>176</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:23.063444Z</date>
+  <millis>1598420663063</millis>
+  <nanos>444000</nanos>
+  <sequence>177</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;/body&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:23.083631Z</date>
+  <millis>1598420663083</millis>
+  <nanos>631000</nanos>
+  <sequence>178</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:23.111849Z</date>
+  <millis>1598420663111</millis>
+  <nanos>849000</nanos>
+  <sequence>179</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;script&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:23.128703Z</date>
+  <millis>1598420663128</millis>
+  <nanos>703000</nanos>
+  <sequence>180</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	function actualizar() { location.reload(true); }')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:23.159687Z</date>
+  <millis>1598420663159</millis>
+  <nanos>687000</nanos>
+  <sequence>181</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	setInterval(\"actualizar()\", 1000);')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:23.186180Z</date>
+  <millis>1598420663186</millis>
+  <nanos>180000</nanos>
+  <sequence>182</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;/script&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:23.208642Z</date>
+  <millis>1598420663208</millis>
+  <nanos>642000</nanos>
+  <sequence>183</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:23.223158Z</date>
+  <millis>1598420663223</millis>
+  <nanos>158000</nanos>
+  <sequence>184</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;/html&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:23.245322Z</date>
+  <millis>1598420663245</millis>
+  <nanos>322000</nanos>
+  <sequence>185</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.close()</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:23.380984Z</date>
+  <millis>1598420663380</millis>
+  <nanos>984000</nanos>
+  <sequence>186</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Operation done. Duration = 810 ms</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:33.568449Z</date>
+  <millis>1598420673568</millis>
+  <nanos>449000</nanos>
+  <sequence>187</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>pyFileManager: Add EventListener: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:33.573074Z</date>
+  <millis>1598420673573</millis>
+  <nanos>74000</nanos>
+  <sequence>188</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>pyFileManager: Starting...</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:33.574591Z</date>
+  <millis>1598420673574</millis>
+  <nanos>591000</nanos>
+  <sequence>189</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:import os;os.listdir('')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:36.577081Z</date>
+  <millis>1598420676577</millis>
+  <nanos>81000</nanos>
+  <sequence>190</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Waiting answer from ESP - Timeout reached. Command aborted.</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:42.509202Z</date>
+  <millis>1598420682509</millis>
+  <nanos>202000</nanos>
+  <sequence>191</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>pyFileManager: Add EventListener: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:42.514745Z</date>
+  <millis>1598420682514</millis>
+  <nanos>745000</nanos>
+  <sequence>192</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>pyFileManager: Starting...</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:42.515929Z</date>
+  <millis>1598420682515</millis>
+  <nanos>929000</nanos>
+  <sequence>193</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:import os;os.listdir('')</message>
+</record>
+<record>
+  <date>2020-08-26T05:44:45.518372Z</date>
+  <millis>1598420685518</millis>
+  <nanos>372000</nanos>
+  <sequence>194</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Waiting answer from ESP - Timeout reached. Command aborted.</message>
+</record>
+<record>
+  <date>2020-08-26T05:45:12.641421Z</date>
+  <millis>1598420712641</millis>
+  <nanos>421000</nanos>
+  <sequence>195</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>RTS set to ON</message>
+</record>
+<record>
+  <date>2020-08-26T05:45:14.603283Z</date>
+  <millis>1598420714603</millis>
+  <nanos>283000</nanos>
+  <sequence>196</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>RTS set to OFF</message>
+</record>
+<record>
+  <date>2020-08-26T05:45:20.277159Z</date>
+  <millis>1598420720277</millis>
+  <nanos>159000</nanos>
+  <sequence>197</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>pyFileManager: Add EventListener: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:45:20.281857Z</date>
+  <millis>1598420720281</millis>
+  <nanos>857000</nanos>
+  <sequence>198</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>pyFileManager: Starting...</message>
+</record>
+<record>
+  <date>2020-08-26T05:45:20.283608Z</date>
+  <millis>1598420720283</millis>
+  <nanos>608000</nanos>
+  <sequence>199</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:import os;os.listdir('')</message>
+</record>
+<record>
+  <date>2020-08-26T05:45:20.306924Z</date>
+  <millis>1598420720306</millis>
+  <nanos>924000</nanos>
+  <sequence>200</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>63</thread>
+  <message>FileManager: File list found! Do parsing...</message>
+</record>
+<record>
+  <date>2020-08-26T05:45:20.309734Z</date>
+  <millis>1598420720309</millis>
+  <nanos>734000</nanos>
+  <sequence>201</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>63</thread>
+  <message>FileManager found file boot.py</message>
+</record>
+<record>
+  <date>2020-08-26T05:45:20.313434Z</date>
+  <millis>1598420720313</millis>
+  <nanos>434000</nanos>
+  <sequence>202</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>63</thread>
+  <message>FileManager found file index.html</message>
+</record>
+<record>
+  <date>2020-08-26T05:45:20.317393Z</date>
+  <millis>1598420720317</millis>
+  <nanos>393000</nanos>
+  <sequence>203</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>63</thread>
+  <message>FileManager found file webrepl_cfg.py</message>
+</record>
+<record>
+  <date>2020-08-26T05:45:20.322404Z</date>
+  <millis>1598420720322</millis>
+  <nanos>404000</nanos>
+  <sequence>204</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>63</thread>
+  <message>pyFileManager: File list parsing done, found 3 file(s).</message>
+</record>
+<record>
+  <date>2020-08-26T05:46:06.877616Z</date>
+  <millis>1598420766877</millis>
+  <nanos>616000</nanos>
+  <sequence>205</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Try to open file main.py</message>
+</record>
+<record>
+  <date>2020-08-26T05:46:06.881552Z</date>
+  <millis>1598420766881</millis>
+  <nanos>552000</nanos>
+  <sequence>206</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>File name: /home/sucho/Documentos/Git/Datalogger/Micropython/source/main.py</message>
+</record>
+<record>
+  <date>2020-08-26T05:46:06.897312Z</date>
+  <millis>1598420766897</millis>
+  <nanos>312000</nanos>
+  <sequence>207</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Try to load file main.py</message>
+</record>
+<record>
+  <date>2020-08-26T05:46:07.030322Z</date>
+  <millis>1598420767030</millis>
+  <nanos>322000</nanos>
+  <sequence>208</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Loading main.py: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:46:07.031928Z</date>
+  <millis>1598420767031</millis>
+  <nanos>928000</nanos>
+  <sequence>209</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Open "main.py": Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:46:32.701762Z</date>
+  <millis>1598420792701</millis>
+  <nanos>762000</nanos>
+  <sequence>210</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>DataSender: start "Dumb Mode"</message>
+</record>
+<record>
+  <date>2020-08-26T05:46:32.702562Z</date>
+  <millis>1598420792702</millis>
+  <nanos>562000</nanos>
+  <sequence>211</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>SendToESP: Starting...</message>
+</record>
+<record>
+  <date>2020-08-26T05:46:32.746524Z</date>
+  <millis>1598420792746</millis>
+  <nanos>524000</nanos>
+  <sequence>212</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:import os</message>
+</record>
+<record>
+  <date>2020-08-26T05:46:32.757464Z</date>
+  <millis>1598420792757</millis>
+  <nanos>464000</nanos>
+  <sequence>213</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:html = open('./index.html','r')</message>
+</record>
+<record>
+  <date>2020-08-26T05:46:32.777156Z</date>
+  <millis>1598420792777</millis>
+  <nanos>156000</nanos>
+  <sequence>214</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:print(html.read())</message>
+</record>
+<record>
+  <date>2020-08-26T05:46:32.977566Z</date>
+  <millis>1598420792977</millis>
+  <nanos>566000</nanos>
+  <sequence>215</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Operation done. Duration = 280 ms</message>
+</record>
+<record>
+  <date>2020-08-26T05:52:58.450813Z</date>
+  <millis>1598421178450</millis>
+  <nanos>813000</nanos>
+  <sequence>216</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>RTS set to ON</message>
+</record>
+<record>
+  <date>2020-08-26T05:52:58.890505Z</date>
+  <millis>1598421178890</millis>
+  <nanos>505000</nanos>
+  <sequence>217</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>RTS set to OFF</message>
+</record>
+<record>
+  <date>2020-08-26T05:53:17.651100Z</date>
+  <millis>1598421197651</millis>
+  <nanos>100000</nanos>
+  <sequence>218</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>We save known file main.py</message>
+</record>
+<record>
+  <date>2020-08-26T05:53:17.654125Z</date>
+  <millis>1598421197654</millis>
+  <nanos>125000</nanos>
+  <sequence>219</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Try to saving file main.py ...</message>
+</record>
+<record>
+  <date>2020-08-26T05:53:17.655183Z</date>
+  <millis>1598421197655</millis>
+  <nanos>183000</nanos>
+  <sequence>220</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Save file main.py: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:53:20.463752Z</date>
+  <millis>1598421200463</millis>
+  <nanos>752000</nanos>
+  <sequence>221</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>DataSender: start "Dumb Mode"</message>
+</record>
+<record>
+  <date>2020-08-26T05:53:20.465565Z</date>
+  <millis>1598421200465</millis>
+  <nanos>565000</nanos>
+  <sequence>222</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>SendToESP: Starting...</message>
+</record>
+<record>
+  <date>2020-08-26T05:53:20.480301Z</date>
+  <millis>1598421200480</millis>
+  <nanos>301000</nanos>
+  <sequence>223</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:import os</message>
+</record>
+<record>
+  <date>2020-08-26T05:53:20.485979Z</date>
+  <millis>1598421200485</millis>
+  <nanos>979000</nanos>
+  <sequence>224</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:html = open('./index.html','rt')</message>
+</record>
+<record>
+  <date>2020-08-26T05:53:20.509567Z</date>
+  <millis>1598421200509</millis>
+  <nanos>567000</nanos>
+  <sequence>225</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:print(html)</message>
+</record>
+<record>
+  <date>2020-08-26T05:53:20.764026Z</date>
+  <millis>1598421200764</millis>
+  <nanos>26000</nanos>
+  <sequence>226</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Operation done. Duration = 305 ms</message>
+</record>
+<record>
+  <date>2020-08-26T05:53:33.955684Z</date>
+  <millis>1598421213955</millis>
+  <nanos>684000</nanos>
+  <sequence>227</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:html.read()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T05:57:47.708603Z</date>
+  <millis>1598421467708</millis>
+  <nanos>603000</nanos>
+  <sequence>228</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:os.listdir()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T05:58:07.019645Z</date>
+  <millis>1598421487019</millis>
+  <nanos>645000</nanos>
+  <sequence>229</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:html&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T05:58:45.737439Z</date>
+  <millis>1598421525737</millis>
+  <nanos>439000</nanos>
+  <sequence>230</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>We save known file main.py</message>
+</record>
+<record>
+  <date>2020-08-26T05:58:45.738736Z</date>
+  <millis>1598421525738</millis>
+  <nanos>736000</nanos>
+  <sequence>231</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Try to saving file main.py ...</message>
+</record>
+<record>
+  <date>2020-08-26T05:58:45.739669Z</date>
+  <millis>1598421525739</millis>
+  <nanos>669000</nanos>
+  <sequence>232</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Save file main.py: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T05:58:48.084263Z</date>
+  <millis>1598421528084</millis>
+  <nanos>263000</nanos>
+  <sequence>233</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>RTS set to ON</message>
+</record>
+<record>
+  <date>2020-08-26T05:58:48.694122Z</date>
+  <millis>1598421528694</millis>
+  <nanos>122000</nanos>
+  <sequence>234</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>RTS set to OFF</message>
+</record>
+<record>
+  <date>2020-08-26T05:59:09.978046Z</date>
+  <millis>1598421549978</millis>
+  <nanos>46000</nanos>
+  <sequence>235</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>DataSender: start "Dumb Mode"</message>
+</record>
+<record>
+  <date>2020-08-26T05:59:09.979375Z</date>
+  <millis>1598421549979</millis>
+  <nanos>375000</nanos>
+  <sequence>236</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>SendToESP: Starting...</message>
+</record>
+<record>
+  <date>2020-08-26T05:59:10.017772Z</date>
+  <millis>1598421550017</millis>
+  <nanos>772000</nanos>
+  <sequence>237</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:import os</message>
+</record>
+<record>
+  <date>2020-08-26T05:59:10.023645Z</date>
+  <millis>1598421550023</millis>
+  <nanos>645000</nanos>
+  <sequence>238</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:html = open('./index.html','r')</message>
+</record>
+<record>
+  <date>2020-08-26T05:59:10.034511Z</date>
+  <millis>1598421550034</millis>
+  <nanos>511000</nanos>
+  <sequence>239</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:print(html.read())</message>
+</record>
+<record>
+  <date>2020-08-26T05:59:10.157914Z</date>
+  <millis>1598421550157</millis>
+  <nanos>914000</nanos>
+  <sequence>240</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Operation done. Duration = 183 ms</message>
+</record>
+<record>
+  <date>2020-08-26T05:59:21.110140Z</date>
+  <millis>1598421561110</millis>
+  <nanos>140000</nanos>
+  <sequence>241</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:html.read()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T05:59:52.973252Z</date>
+  <millis>1598421592973</millis>
+  <nanos>252000</nanos>
+  <sequence>242</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T05:59:56.088700Z</date>
+  <millis>1598421596088</millis>
+  <nanos>700000</nanos>
+  <sequence>243</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:dofile("boot.py")</message>
+</record>
+<record>
+  <date>2020-08-26T06:00:13.825468Z</date>
+  <millis>1598421613825</millis>
+  <nanos>468000</nanos>
+  <sequence>244</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:import os &lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T06:00:33.203927Z</date>
+  <millis>1598421633203</millis>
+  <nanos>927000</nanos>
+  <sequence>245</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:os.dofile('boot.py')&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T06:00:41.383629Z</date>
+  <millis>1598421641383</millis>
+  <nanos>629000</nanos>
+  <sequence>246</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:os.dofile(boot.py)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T06:00:49.022400Z</date>
+  <millis>1598421649022</millis>
+  <nanos>400000</nanos>
+  <sequence>247</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>pyFileManager: Add EventListener: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T06:00:49.026413Z</date>
+  <millis>1598421649026</millis>
+  <nanos>413000</nanos>
+  <sequence>248</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>pyFileManager: Starting...</message>
+</record>
+<record>
+  <date>2020-08-26T06:00:49.027629Z</date>
+  <millis>1598421649027</millis>
+  <nanos>629000</nanos>
+  <sequence>249</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:import os;os.listdir('')</message>
+</record>
+<record>
+  <date>2020-08-26T06:00:49.052102Z</date>
+  <millis>1598421649052</millis>
+  <nanos>102000</nanos>
+  <sequence>250</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>73</thread>
+  <message>FileManager: File list found! Do parsing...</message>
+</record>
+<record>
+  <date>2020-08-26T06:00:49.065953Z</date>
+  <millis>1598421649065</millis>
+  <nanos>953000</nanos>
+  <sequence>251</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>73</thread>
+  <message>FileManager found file boot.py</message>
+</record>
+<record>
+  <date>2020-08-26T06:00:49.071253Z</date>
+  <millis>1598421649071</millis>
+  <nanos>253000</nanos>
+  <sequence>252</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>73</thread>
+  <message>FileManager found file index.html</message>
+</record>
+<record>
+  <date>2020-08-26T06:00:49.077005Z</date>
+  <millis>1598421649077</millis>
+  <nanos>5000</nanos>
+  <sequence>253</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>73</thread>
+  <message>FileManager found file webrepl_cfg.py</message>
+</record>
+<record>
+  <date>2020-08-26T06:00:49.082912Z</date>
+  <millis>1598421649082</millis>
+  <nanos>912000</nanos>
+  <sequence>254</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>73</thread>
+  <message>pyFileManager: File list parsing done, found 3 file(s).</message>
+</record>
+<record>
+  <date>2020-08-26T06:00:52.111948Z</date>
+  <millis>1598421652111</millis>
+  <nanos>948000</nanos>
+  <sequence>255</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:dofile("boot.py")</message>
+</record>
+<record>
+  <date>2020-08-26T06:00:58.507654Z</date>
+  <millis>1598421658507</millis>
+  <nanos>654000</nanos>
+  <sequence>256</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:dofile("webrepl_cfg.py")</message>
+</record>
+<record>
+  <date>2020-08-26T06:01:00.561592Z</date>
+  <millis>1598421660561</millis>
+  <nanos>592000</nanos>
+  <sequence>257</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:dofile("webrepl_cfg.py")</message>
+</record>
+<record>
+  <date>2020-08-26T06:01:01.266143Z</date>
+  <millis>1598421661266</millis>
+  <nanos>143000</nanos>
+  <sequence>258</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:dofile("webrepl_cfg.py")</message>
+</record>
+<record>
+  <date>2020-08-26T06:01:08.757646Z</date>
+  <millis>1598421668757</millis>
+  <nanos>646000</nanos>
+  <sequence>259</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>pyFileManager: Add EventListener: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T06:01:08.764417Z</date>
+  <millis>1598421668764</millis>
+  <nanos>417000</nanos>
+  <sequence>260</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>pyFileManager: Starting...</message>
+</record>
+<record>
+  <date>2020-08-26T06:01:08.766235Z</date>
+  <millis>1598421668766</millis>
+  <nanos>235000</nanos>
+  <sequence>261</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:import os;os.listdir('')</message>
+</record>
+<record>
+  <date>2020-08-26T06:01:08.791859Z</date>
+  <millis>1598421668791</millis>
+  <nanos>859000</nanos>
+  <sequence>262</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>75</thread>
+  <message>FileManager: File list found! Do parsing...</message>
+</record>
+<record>
+  <date>2020-08-26T06:01:08.797795Z</date>
+  <millis>1598421668797</millis>
+  <nanos>795000</nanos>
+  <sequence>263</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>75</thread>
+  <message>FileManager found file boot.py</message>
+</record>
+<record>
+  <date>2020-08-26T06:01:08.802222Z</date>
+  <millis>1598421668802</millis>
+  <nanos>222000</nanos>
+  <sequence>264</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>75</thread>
+  <message>FileManager found file index.html</message>
+</record>
+<record>
+  <date>2020-08-26T06:01:08.808416Z</date>
+  <millis>1598421668808</millis>
+  <nanos>416000</nanos>
+  <sequence>265</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>75</thread>
+  <message>FileManager found file webrepl_cfg.py</message>
+</record>
+<record>
+  <date>2020-08-26T06:01:08.814236Z</date>
+  <millis>1598421668814</millis>
+  <nanos>236000</nanos>
+  <sequence>266</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>75</thread>
+  <message>pyFileManager: File list parsing done, found 3 file(s).</message>
+</record>
+<record>
+  <date>2020-08-26T06:01:40.816041Z</date>
+  <millis>1598421700816</millis>
+  <nanos>41000</nanos>
+  <sequence>267</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:os.r&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T06:02:24.352698Z</date>
+  <millis>1598421744352</millis>
+  <nanos>698000</nanos>
+  <sequence>268</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:os.remove(index.html)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T06:02:32.215543Z</date>
+  <millis>1598421752215</millis>
+  <nanos>543000</nanos>
+  <sequence>269</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:os.remove('index.html')&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T06:02:36.933929Z</date>
+  <millis>1598421756933</millis>
+  <nanos>929000</nanos>
+  <sequence>270</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>pyFileManager: Add EventListener: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T06:02:36.938230Z</date>
+  <millis>1598421756938</millis>
+  <nanos>230000</nanos>
+  <sequence>271</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>pyFileManager: Starting...</message>
+</record>
+<record>
+  <date>2020-08-26T06:02:36.939713Z</date>
+  <millis>1598421756939</millis>
+  <nanos>713000</nanos>
+  <sequence>272</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:import os;os.listdir('')</message>
+</record>
+<record>
+  <date>2020-08-26T06:02:36.961331Z</date>
+  <millis>1598421756961</millis>
+  <nanos>331000</nanos>
+  <sequence>273</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>77</thread>
+  <message>FileManager: File list found! Do parsing...</message>
+</record>
+<record>
+  <date>2020-08-26T06:02:36.965942Z</date>
+  <millis>1598421756965</millis>
+  <nanos>942000</nanos>
+  <sequence>274</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>77</thread>
+  <message>FileManager found file boot.py</message>
+</record>
+<record>
+  <date>2020-08-26T06:02:36.969215Z</date>
+  <millis>1598421756969</millis>
+  <nanos>215000</nanos>
+  <sequence>275</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>77</thread>
+  <message>FileManager found file webrepl_cfg.py</message>
+</record>
+<record>
+  <date>2020-08-26T06:02:36.970748Z</date>
+  <millis>1598421756970</millis>
+  <nanos>748000</nanos>
+  <sequence>276</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>77</thread>
+  <message>pyFileManager: File list parsing done, found 2 file(s).</message>
+</record>
+<record>
+  <date>2020-08-26T06:02:44.872702Z</date>
+  <millis>1598421764872</millis>
+  <nanos>702000</nanos>
+  <sequence>277</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:21.903467Z</date>
+  <millis>1598421801903</millis>
+  <nanos>467000</nanos>
+  <sequence>278</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>We save known file index.html</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:21.905305Z</date>
+  <millis>1598421801905</millis>
+  <nanos>305000</nanos>
+  <sequence>279</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Try to saving file index.html ...</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:21.906841Z</date>
+  <millis>1598421801906</millis>
+  <nanos>841000</nanos>
+  <sequence>280</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Save file index.html: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.775388Z</date>
+  <millis>1598421802775</millis>
+  <nanos>388000</nanos>
+  <sequence>281</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>pyFileSaveESP: Starting...</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.786019Z</date>
+  <millis>1598421802786</millis>
+  <nanos>19000</nanos>
+  <sequence>282</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>DataSender: start "Dumb Mode"</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.801677Z</date>
+  <millis>1598421802801</millis>
+  <nanos>677000</nanos>
+  <sequence>283</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f=open('index.html','w')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.805154Z</date>
+  <millis>1598421802805</millis>
+  <nanos>154000</nanos>
+  <sequence>284</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;!DOCTYPE html&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.819047Z</date>
+  <millis>1598421802819</millis>
+  <nanos>47000</nanos>
+  <sequence>285</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;html lang=\"en\"&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.823556Z</date>
+  <millis>1598421802823</millis>
+  <nanos>556000</nanos>
+  <sequence>286</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;head&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.825859Z</date>
+  <millis>1598421802825</millis>
+  <nanos>859000</nanos>
+  <sequence>287</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	&lt;meta charset=\"UTF-8\"&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.830687Z</date>
+  <millis>1598421802830</millis>
+  <nanos>687000</nanos>
+  <sequence>288</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	&lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.835068Z</date>
+  <millis>1598421802835</millis>
+  <nanos>68000</nanos>
+  <sequence>289</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	&lt;title&gt;Informatica II&lt;/title&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.839116Z</date>
+  <millis>1598421802839</millis>
+  <nanos>116000</nanos>
+  <sequence>290</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;/head&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.843934Z</date>
+  <millis>1598421802843</millis>
+  <nanos>934000</nanos>
+  <sequence>291</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;body&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.849679Z</date>
+  <millis>1598421802849</millis>
+  <nanos>679000</nanos>
+  <sequence>292</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	&lt;h1&gt;Humedad y temperatura [DHT11]&lt;/h1&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.852697Z</date>
+  <millis>1598421802852</millis>
+  <nanos>697000</nanos>
+  <sequence>293</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	&lt;table border=\"1\" bgcolor=\"#909090\"&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.855235Z</date>
+  <millis>1598421802855</millis>
+  <nanos>235000</nanos>
+  <sequence>294</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('		&lt;tr&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.858411Z</date>
+  <millis>1598421802858</millis>
+  <nanos>411000</nanos>
+  <sequence>295</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('			&lt;th&gt;Temperatura&lt;/th&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.860796Z</date>
+  <millis>1598421802860</millis>
+  <nanos>796000</nanos>
+  <sequence>296</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('			&lt;th&gt;Humedad&lt;/th&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.867190Z</date>
+  <millis>1598421802867</millis>
+  <nanos>190000</nanos>
+  <sequence>297</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('			&lt;th&gt;contador&lt;/th&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.871794Z</date>
+  <millis>1598421802871</millis>
+  <nanos>794000</nanos>
+  <sequence>298</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('		&lt;/tr&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.874384Z</date>
+  <millis>1598421802874</millis>
+  <nanos>384000</nanos>
+  <sequence>299</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('		&lt;tr&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.879031Z</date>
+  <millis>1598421802879</millis>
+  <nanos>31000</nanos>
+  <sequence>300</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('			%s')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.883542Z</date>
+  <millis>1598421802883</millis>
+  <nanos>542000</nanos>
+  <sequence>301</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('		&lt;/tr&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.887851Z</date>
+  <millis>1598421802887</millis>
+  <nanos>851000</nanos>
+  <sequence>302</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	&lt;/table&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.890358Z</date>
+  <millis>1598421802890</millis>
+  <nanos>358000</nanos>
+  <sequence>303</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;/body&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.893109Z</date>
+  <millis>1598421802893</millis>
+  <nanos>109000</nanos>
+  <sequence>304</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;script&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.894908Z</date>
+  <millis>1598421802894</millis>
+  <nanos>908000</nanos>
+  <sequence>305</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	function actualizar() { location.reload(true); }')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.897104Z</date>
+  <millis>1598421802897</millis>
+  <nanos>104000</nanos>
+  <sequence>306</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	setInterval(\"actualizar()\", 1000);')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.904074Z</date>
+  <millis>1598421802904</millis>
+  <nanos>74000</nanos>
+  <sequence>307</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;/script&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.910564Z</date>
+  <millis>1598421802910</millis>
+  <nanos>564000</nanos>
+  <sequence>308</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;/html&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:22.915722Z</date>
+  <millis>1598421802915</millis>
+  <nanos>722000</nanos>
+  <sequence>309</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.close()</message>
+</record>
+<record>
+  <date>2020-08-26T06:03:23.009545Z</date>
+  <millis>1598421803009</millis>
+  <nanos>545000</nanos>
+  <sequence>310</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Operation done. Duration = 230 ms</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.313448Z</date>
+  <millis>1598421863313</millis>
+  <nanos>448000</nanos>
+  <sequence>311</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>We save known file index.html</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.314588Z</date>
+  <millis>1598421863314</millis>
+  <nanos>588000</nanos>
+  <sequence>312</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Try to saving file index.html ...</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.315354Z</date>
+  <millis>1598421863315</millis>
+  <nanos>354000</nanos>
+  <sequence>313</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Save file index.html: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.646498Z</date>
+  <millis>1598421863646</millis>
+  <nanos>498000</nanos>
+  <sequence>314</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>pyFileSaveESP: Starting...</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.650880Z</date>
+  <millis>1598421863650</millis>
+  <nanos>880000</nanos>
+  <sequence>315</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>DataSender: start "Dumb Mode"</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.664861Z</date>
+  <millis>1598421863664</millis>
+  <nanos>861000</nanos>
+  <sequence>316</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f=open('index.html','w')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.669197Z</date>
+  <millis>1598421863669</millis>
+  <nanos>197000</nanos>
+  <sequence>317</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;!DOCTYPE html&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.675017Z</date>
+  <millis>1598421863675</millis>
+  <nanos>17000</nanos>
+  <sequence>318</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;html lang=\"en\"&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.679857Z</date>
+  <millis>1598421863679</millis>
+  <nanos>857000</nanos>
+  <sequence>319</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;head&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.684683Z</date>
+  <millis>1598421863684</millis>
+  <nanos>683000</nanos>
+  <sequence>320</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	&lt;meta charset=\"UTF-8\"&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.688757Z</date>
+  <millis>1598421863688</millis>
+  <nanos>757000</nanos>
+  <sequence>321</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	&lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.692459Z</date>
+  <millis>1598421863692</millis>
+  <nanos>459000</nanos>
+  <sequence>322</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	&lt;title&gt;Informatica II&lt;/title&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.696003Z</date>
+  <millis>1598421863696</millis>
+  <nanos>3000</nanos>
+  <sequence>323</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;/head&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.701556Z</date>
+  <millis>1598421863701</millis>
+  <nanos>556000</nanos>
+  <sequence>324</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;body&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.712006Z</date>
+  <millis>1598421863712</millis>
+  <nanos>6000</nanos>
+  <sequence>325</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	&lt;h1&gt;Humedad y temperatura [DHT11]&lt;/h1&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.720244Z</date>
+  <millis>1598421863720</millis>
+  <nanos>244000</nanos>
+  <sequence>326</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	&lt;table border=\"1\" bgcolor=\"#909090\"&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.729472Z</date>
+  <millis>1598421863729</millis>
+  <nanos>472000</nanos>
+  <sequence>327</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('		&lt;tr&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.740687Z</date>
+  <millis>1598421863740</millis>
+  <nanos>687000</nanos>
+  <sequence>328</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('			&lt;th&gt;Temperatura&lt;/th&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.759817Z</date>
+  <millis>1598421863759</millis>
+  <nanos>817000</nanos>
+  <sequence>329</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('			&lt;th&gt;Humedad&lt;/th&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.763274Z</date>
+  <millis>1598421863763</millis>
+  <nanos>274000</nanos>
+  <sequence>330</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('			&lt;th&gt;contador&lt;/th&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.766417Z</date>
+  <millis>1598421863766</millis>
+  <nanos>417000</nanos>
+  <sequence>331</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('		&lt;/tr&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.775991Z</date>
+  <millis>1598421863775</millis>
+  <nanos>991000</nanos>
+  <sequence>332</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('		&lt;tr&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.779272Z</date>
+  <millis>1598421863779</millis>
+  <nanos>272000</nanos>
+  <sequence>333</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('			%s')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.783066Z</date>
+  <millis>1598421863783</millis>
+  <nanos>66000</nanos>
+  <sequence>334</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('		&lt;/tr&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.786837Z</date>
+  <millis>1598421863786</millis>
+  <nanos>837000</nanos>
+  <sequence>335</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	&lt;/table&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.811721Z</date>
+  <millis>1598421863811</millis>
+  <nanos>721000</nanos>
+  <sequence>336</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;/body&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.827881Z</date>
+  <millis>1598421863827</millis>
+  <nanos>881000</nanos>
+  <sequence>337</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;script&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.841620Z</date>
+  <millis>1598421863841</millis>
+  <nanos>620000</nanos>
+  <sequence>338</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	function actualizar() { location.reload(true); }')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.871007Z</date>
+  <millis>1598421863871</millis>
+  <nanos>7000</nanos>
+  <sequence>339</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	setInterval(\"actualizar()\", 1000);')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.884081Z</date>
+  <millis>1598421863884</millis>
+  <nanos>81000</nanos>
+  <sequence>340</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;/script&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.902268Z</date>
+  <millis>1598421863902</millis>
+  <nanos>268000</nanos>
+  <sequence>341</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;/html&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:23.909392Z</date>
+  <millis>1598421863909</millis>
+  <nanos>392000</nanos>
+  <sequence>342</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.close()</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:24.070675Z</date>
+  <millis>1598421864070</millis>
+  <nanos>675000</nanos>
+  <sequence>343</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Operation done. Duration = 423 ms</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:32.117663Z</date>
+  <millis>1598421872117</millis>
+  <nanos>663000</nanos>
+  <sequence>344</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>RTS set to ON</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:32.682308Z</date>
+  <millis>1598421872682</millis>
+  <nanos>308000</nanos>
+  <sequence>345</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>RTS set to OFF</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:40.190073Z</date>
+  <millis>1598421880190</millis>
+  <nanos>73000</nanos>
+  <sequence>346</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>RTS set to ON</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:40.769882Z</date>
+  <millis>1598421880769</millis>
+  <nanos>882000</nanos>
+  <sequence>347</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>RTS set to OFF</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:45.559971Z</date>
+  <millis>1598421885559</millis>
+  <nanos>971000</nanos>
+  <sequence>348</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>We save known file index.html</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:45.561585Z</date>
+  <millis>1598421885561</millis>
+  <nanos>585000</nanos>
+  <sequence>349</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Try to saving file index.html ...</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:45.563211Z</date>
+  <millis>1598421885563</millis>
+  <nanos>211000</nanos>
+  <sequence>350</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Save file index.html: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:45.786300Z</date>
+  <millis>1598421885786</millis>
+  <nanos>300000</nanos>
+  <sequence>351</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>pyFileSaveESP: Starting...</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:45.791518Z</date>
+  <millis>1598421885791</millis>
+  <nanos>518000</nanos>
+  <sequence>352</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>DataSender: start "Dumb Mode"</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:45.805735Z</date>
+  <millis>1598421885805</millis>
+  <nanos>735000</nanos>
+  <sequence>353</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f=open('index.html','w')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:45.844015Z</date>
+  <millis>1598421885844</millis>
+  <nanos>15000</nanos>
+  <sequence>354</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;!DOCTYPE html&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:45.899135Z</date>
+  <millis>1598421885899</millis>
+  <nanos>135000</nanos>
+  <sequence>355</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;html lang=\"en\"&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:45.918962Z</date>
+  <millis>1598421885918</millis>
+  <nanos>962000</nanos>
+  <sequence>356</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;head&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:45.924816Z</date>
+  <millis>1598421885924</millis>
+  <nanos>816000</nanos>
+  <sequence>357</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	&lt;meta charset=\"UTF-8\"&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:45.941032Z</date>
+  <millis>1598421885941</millis>
+  <nanos>32000</nanos>
+  <sequence>358</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	&lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:45.973167Z</date>
+  <millis>1598421885973</millis>
+  <nanos>167000</nanos>
+  <sequence>359</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	&lt;title&gt;Informatica II&lt;/title&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:46.010301Z</date>
+  <millis>1598421886010</millis>
+  <nanos>301000</nanos>
+  <sequence>360</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;/head&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:46.027901Z</date>
+  <millis>1598421886027</millis>
+  <nanos>901000</nanos>
+  <sequence>361</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;body&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:46.070426Z</date>
+  <millis>1598421886070</millis>
+  <nanos>426000</nanos>
+  <sequence>362</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	&lt;h1&gt;Humedad y temperatura [DHT11]&lt;/h1&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:46.099608Z</date>
+  <millis>1598421886099</millis>
+  <nanos>608000</nanos>
+  <sequence>363</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	&lt;table border=\"1\" bgcolor=\"#909090\"&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:46.135675Z</date>
+  <millis>1598421886135</millis>
+  <nanos>675000</nanos>
+  <sequence>364</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('		&lt;tr&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:46.184389Z</date>
+  <millis>1598421886184</millis>
+  <nanos>389000</nanos>
+  <sequence>365</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('			&lt;th&gt;Temperatura&lt;/th&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:46.199807Z</date>
+  <millis>1598421886199</millis>
+  <nanos>807000</nanos>
+  <sequence>366</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('			&lt;th&gt;Humedad&lt;/th&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:46.241662Z</date>
+  <millis>1598421886241</millis>
+  <nanos>662000</nanos>
+  <sequence>367</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('			&lt;th&gt;contador&lt;/th&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:46.273246Z</date>
+  <millis>1598421886273</millis>
+  <nanos>246000</nanos>
+  <sequence>368</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('		&lt;/tr&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:46.311492Z</date>
+  <millis>1598421886311</millis>
+  <nanos>492000</nanos>
+  <sequence>369</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('		&lt;tr&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:46.336212Z</date>
+  <millis>1598421886336</millis>
+  <nanos>212000</nanos>
+  <sequence>370</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('			%s')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:46.375181Z</date>
+  <millis>1598421886375</millis>
+  <nanos>181000</nanos>
+  <sequence>371</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('		&lt;/tr&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:46.398813Z</date>
+  <millis>1598421886398</millis>
+  <nanos>813000</nanos>
+  <sequence>372</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	&lt;/table&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:46.428743Z</date>
+  <millis>1598421886428</millis>
+  <nanos>743000</nanos>
+  <sequence>373</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;/body&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:46.463408Z</date>
+  <millis>1598421886463</millis>
+  <nanos>408000</nanos>
+  <sequence>374</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;script&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:46.498159Z</date>
+  <millis>1598421886498</millis>
+  <nanos>159000</nanos>
+  <sequence>375</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	function actualizar() { location.reload(true); }')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:46.517819Z</date>
+  <millis>1598421886517</millis>
+  <nanos>819000</nanos>
+  <sequence>376</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('	setInterval(\"actualizar()\", 1000);')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:46.558938Z</date>
+  <millis>1598421886558</millis>
+  <nanos>938000</nanos>
+  <sequence>377</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;/script&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:46.584091Z</date>
+  <millis>1598421886584</millis>
+  <nanos>91000</nanos>
+  <sequence>378</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.write('&lt;/html&gt;')</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:46.641088Z</date>
+  <millis>1598421886641</millis>
+  <nanos>88000</nanos>
+  <sequence>379</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:f.close()</message>
+</record>
+<record>
+  <date>2020-08-26T06:04:46.830723Z</date>
+  <millis>1598421886830</millis>
+  <nanos>723000</nanos>
+  <sequence>380</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Operation done. Duration = 1043 ms</message>
+</record>
+<record>
+  <date>2020-08-26T06:06:02.108895Z</date>
+  <millis>1598421962108</millis>
+  <nanos>895000</nanos>
+  <sequence>381</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>pyFileManager: Add EventListener: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T06:06:02.114757Z</date>
+  <millis>1598421962114</millis>
+  <nanos>757000</nanos>
+  <sequence>382</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>pyFileManager: Starting...</message>
+</record>
+<record>
+  <date>2020-08-26T06:06:02.115971Z</date>
+  <millis>1598421962115</millis>
+  <nanos>971000</nanos>
+  <sequence>383</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:import os;os.listdir('')</message>
+</record>
+<record>
+  <date>2020-08-26T06:06:02.137609Z</date>
+  <millis>1598421962137</millis>
+  <nanos>609000</nanos>
+  <sequence>384</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>85</thread>
+  <message>FileManager: File list found! Do parsing...</message>
+</record>
+<record>
+  <date>2020-08-26T06:06:02.145202Z</date>
+  <millis>1598421962145</millis>
+  <nanos>202000</nanos>
+  <sequence>385</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>85</thread>
+  <message>FileManager found file boot.py</message>
+</record>
+<record>
+  <date>2020-08-26T06:06:02.147566Z</date>
+  <millis>1598421962147</millis>
+  <nanos>566000</nanos>
+  <sequence>386</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>85</thread>
+  <message>FileManager found file index.html</message>
+</record>
+<record>
+  <date>2020-08-26T06:06:02.164470Z</date>
+  <millis>1598421962164</millis>
+  <nanos>470000</nanos>
+  <sequence>387</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>85</thread>
+  <message>FileManager found file webrepl_cfg.py</message>
+</record>
+<record>
+  <date>2020-08-26T06:06:02.170700Z</date>
+  <millis>1598421962170</millis>
+  <nanos>700000</nanos>
+  <sequence>388</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>85</thread>
+  <message>pyFileManager: File list parsing done, found 3 file(s).</message>
+</record>
+<record>
+  <date>2020-08-26T06:06:11.888494Z</date>
+  <millis>1598421971888</millis>
+  <nanos>494000</nanos>
+  <sequence>389</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>DataSender: start "Dumb Mode"</message>
+</record>
+<record>
+  <date>2020-08-26T06:06:11.890489Z</date>
+  <millis>1598421971890</millis>
+  <nanos>489000</nanos>
+  <sequence>390</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>SendToESP: Starting...</message>
+</record>
+<record>
+  <date>2020-08-26T06:06:11.904772Z</date>
+  <millis>1598421971904</millis>
+  <nanos>772000</nanos>
+  <sequence>391</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:import os</message>
+</record>
+<record>
+  <date>2020-08-26T06:06:11.926996Z</date>
+  <millis>1598421971926</millis>
+  <nanos>996000</nanos>
+  <sequence>392</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:html = open('./index.html','r')</message>
+</record>
+<record>
+  <date>2020-08-26T06:06:11.938414Z</date>
+  <millis>1598421971938</millis>
+  <nanos>414000</nanos>
+  <sequence>393</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>sending:print(html.read())</message>
+</record>
+<record>
+  <date>2020-08-26T06:06:12.214880Z</date>
+  <millis>1598421972214</millis>
+  <nanos>880000</nanos>
+  <sequence>394</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Operation done. Duration = 329 ms</message>
+</record>
+<record>
+  <date>2020-08-26T06:07:12.863187Z</date>
+  <millis>1598422032863</millis>
+  <nanos>187000</nanos>
+  <sequence>395</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>Close port /dev/ttyUSB0 - Success.</message>
+</record>
+<record>
+  <date>2020-08-26T06:07:22.087256Z</date>
+  <millis>1598422042087</millis>
+  <nanos>256000</nanos>
+  <sequence>396</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>File changed. Ask before closing.</message>
+</record>
+<record>
+  <date>2020-08-26T06:07:24.575625Z</date>
+  <millis>1598422044575</millis>
+  <nanos>625000</nanos>
+  <sequence>397</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>User select: Close anyway.</message>
+</record>
+<record>
+  <date>2020-08-26T06:07:24.628549Z</date>
+  <millis>1598422044628</millis>
+  <nanos>549000</nanos>
+  <sequence>398</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>FileTab removed: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T06:07:24.630640Z</date>
+  <millis>1598422044630</millis>
+  <nanos>640000</nanos>
+  <sequence>399</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>File close: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T06:07:24.674031Z</date>
+  <millis>1598422044674</millis>
+  <nanos>31000</nanos>
+  <sequence>400</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>FileTab removed: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T06:07:24.676382Z</date>
+  <millis>1598422044676</millis>
+  <nanos>382000</nanos>
+  <sequence>401</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>File close: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T06:07:24.757429Z</date>
+  <millis>1598422044757</millis>
+  <nanos>429000</nanos>
+  <sequence>402</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>FileTab cleared: Success.</message>
+</record>
+<record>
+  <date>2020-08-26T06:07:24.758292Z</date>
+  <millis>1598422044758</millis>
+  <nanos>292000</nanos>
+  <sequence>403</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>17</thread>
+  <message>File close: Success.</message>
+</record>
+</log>
